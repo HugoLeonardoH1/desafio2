@@ -26,9 +26,6 @@ function CalcMedia(grade1,grade2){
 }
 
 
-function printGrade(student){
-  return `O Estudante ${student.name} foi aprovado com a média ${CalcMedia(student.grade1 , student.grade2)} `
-}
 
 
     for( let student of students){
